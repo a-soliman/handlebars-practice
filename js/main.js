@@ -38,3 +38,6 @@ const cast = {
 }
 
 
+var charactorTemplate = $("#characterTemplate").html();
+var compiledCharactor = Handlebars.compile(charactorTemplate);
+$('.characters-container').html(compiledCharactor(cast))
