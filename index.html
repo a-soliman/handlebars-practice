@@ -14,7 +14,20 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		
+		<h1>Game of Thrones</h1>
+		<ul class="characters-container"></ul>
+
+		<script id="characterTemplate" type="text/x-handlebars-template">
+			{{#each characters}}
+				<li class="character">
+					<img src="img/{{shortCode}}.jpg">
+					<h2>{{name}}</h2>
+					<p>Actor: {{actor}}</p>
+					<p>House: {{house}}</p>
+					<p>Whereabouts: {{location}}</p>
+				</li>
+			{{/each}}
+		</script>
 	
 		<!-- ******Jquery GOOGLE CDN***** -->
 		<script src="js/jquery-3.1.1.min.js"></script>
