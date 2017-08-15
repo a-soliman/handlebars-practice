@@ -32,7 +32,7 @@
 					<h2>{{name}}</h2>
 					<p>Actor: {{actor}}</p>
 					<p>House: {{house}}</p>
-					<p>Whereabouts: {{location}}</p>
+					<p>Whereabouts: {{#if location}}{{location}}{{else if house}}{{house}}{{else}}Unknown{{/if}}</p>
 				</li>
 			{{/each}}
 			

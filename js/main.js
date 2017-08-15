@@ -18,7 +18,7 @@ const cast = {
 			"shortCode": "brienne",
 			"actor": "Gwendoline Christie",
 			"house": "Clegane",
-			"location": "unknown"
+			"location": undefined
 		},
 		{
 			"name": "Eddard Stark",
