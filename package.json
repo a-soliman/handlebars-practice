@@ -1,0 +1,23 @@
+{
+  "name": "handlebars-practice",
+  "version": "1.0.0",
+  "description": "Handlebars practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-soliman/handlebars-practice.git"
+  },
+  "author": "Ahmed Soliman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-soliman/handlebars-practice/issues"
+  },
+  "homepage": "https://github.com/a-soliman/handlebars-practice#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
