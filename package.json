@@ -2,7 +2,7 @@
   "name": "handlebars-practice",
   "version": "1.0.0",
   "description": "Handlebars practice",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "lite-server"
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/a-soliman/handlebars-practice#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
     "lite-server": "^2.3.0"
   }
 }
