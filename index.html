@@ -31,7 +31,11 @@
 					<img src="img/{{shortCode}}.jpg">
 					<h2>{{name}}</h2>
 					<p>Actor: {{actor}}</p>
-					<p>House: {{house}}</p>
+					{{#with house}}
+						{{#if name}}<p>House: {{name}}</p>{{/if}}
+						{{#if seat}}<p>Seat: {{seat}}</p>{{/if}}
+						{{#if words}}<p>Words: {{words}}</p>{{/if}}
+					{{/with}}
 					{{#if location}}<p>Whereabouts: {{location}}</p>{{/if}}
 				</li>
 			{{/each}}

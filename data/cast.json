@@ -4,34 +4,54 @@
 			"name": "John Snow",
 			"shortCode": "jon-snow",
 			"actor": "Kit Harrington",
-			"house": "Stark",
+			"house": {
+				"name": "Stark",
+				"seat": "winterfell",
+				"words": "Winner is coming"
+			},
 			"location": "The Wall"
 		},
 		{
 			"name": "Tyrion Lannister",
 			"shortCode": "tyrion",
 			"actor": "Peter Dinklarge",
-			"house": "Lannister"
+			"house": {
+				"name": "Stark",
+				"seat": "winterfell",
+				"words": "Winner is coming"
+			}
 		},
 		{
 			"name": "Brienne Of Tarth",
 			"shortCode": "brienne",
 			"actor": "Gwendoline Christie",
-			"house": "Clegane",
-			"location": undefined
+			"house": {
+				"name": "Stark",
+				"seat": "winterfell",
+				"words": "Winner is coming"
+			},
+			"location": "unknown"
 		},
 		{
 			"name": "Eddard Stark",
 			"shortCode": "ned-stark",
 			"actor": "Sean Bean",
-			"house": "Stark",
+			"house": {
+				"name": "Stark",
+				"seat": "winterfell",
+				"words": "Winner is coming"
+			},
 			"location": "winterfell"
 		},
 		{
 			"name": "Sandor Clegane",
 			"shortCode": "the-hound",
 			"actor": "Rory McCann",
-			"house": "Clegane",
+			"house": {
+				"name": "Stark",
+				"seat": "winterfell",
+				"words": "Winner is coming"
+			},
 			"location": "unknown"
 		}
 	]

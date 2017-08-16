@@ -1,19 +1,9 @@
 $(document).ready(function() {
-	$.ajax({
-		type:'GET',
-		dataType: 'json',
-		async: false,
-		url: '../data/cast.json',
-		success: function(data) {
-			console.log(data);
-		}
-	})
-})
-
-
-var charactorTemplate = $("#characterTemplate").html();
+	var charactorTemplate = $("#characterTemplate").html();
 var compiledCharactor = Handlebars.compile(charactorTemplate);
 
+	$.ajax("./data/cast.json").done(function(cast) {
+		$('.characters-container').html(compiledCharactor(cast))
 
-
-//$('.characters-container').html(compiledCharactor(cast))
+	})
+})
