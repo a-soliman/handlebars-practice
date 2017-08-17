@@ -29,12 +29,14 @@
 			{{#each characters}}
 				<li class="character">
 					<img src="img/{{shortCode}}.jpg">
+					{{formatName name house.seat}}
 					<h2>{{name}}</h2>
 					<p>Actor: {{actor}}</p>
 					{{#with house}}
-						{{#if name}}<p>House: {{name}}</p>{{/if}}
+						{{#if name}}<p>House: {{#makeBold}}{{name}}{{/makeBold}}</p>{{/if}}
 						{{#if seat}}<p>Seat: {{seat}}</p>{{/if}}
-						{{#if words}}<p>Words: {{words}}</p>{{/if}}
+						{{#if words}}<p>Words: {{#upperCase}}{{words}}{{/upperCase}}</p>{{/if}}
+						{{#if phone}}<p>phone: {{formatPhoneNumber phone}}</p>{{/if}}
 					{{/with}}
 					{{#if location}}<p>Whereabouts: {{location}}</p>{{/if}}
 				</li>
