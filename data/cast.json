@@ -1,6 +1,7 @@
 {
 	"characters": [
 		{
+			"id": 0,
 			"name": "John Snow",
 			"shortCode": "jon-snow",
 			"actor": "Kit Harrington",
@@ -10,19 +11,23 @@
 				"words": "Winner is coming",
 				"phone": "1111111111"
 			},
-			"location": "The Wall"
+			"location": "The Wall",
+			"bio" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit corporis ratione eveniet cupiditate. Quibusdam non, mollitia itaque sunt quas aspernatur id iure, qui repudiandae similique? Soluta quidem voluptates delectus esse."
 		},
 		{
+			"id": 1,
 			"name": "Tyrion Lannister",
 			"shortCode": "tyrion",
 			"actor": "Peter Dinklarge",
 			"house": {
 				"name": "Stark",
 				"seat": "winterfell",
-				"words": "Winner is coming"
+				"words": "Winner is coming",
+			"bio" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit corporis ratione eveniet cupiditate. Quibusdam non, mollitia itaque sunt quas aspernatur id iure, qui repudiandae similique? Soluta quidem voluptates delectus esse."
 			}
 		},
 		{
+			"id": 2,
 			"name": "Brienne Of Tarth",
 			"shortCode": "brienne",
 			"actor": "Gwendoline Christie",
@@ -31,9 +36,11 @@
 				"seat": "winterfell",
 				"words": "Winner is coming"
 			},
-			"location": "unknown"
+			"location": "unknown",
+			"bio" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit corporis ratione eveniet cupiditate. Quibusdam non, mollitia itaque sunt quas aspernatur id iure, qui repudiandae similique? Soluta quidem voluptates delectus esse."
 		},
 		{
+			"id": 3,
 			"name": "Eddard Stark",
 			"shortCode": "ned-stark",
 			"actor": "Sean Bean",
@@ -42,9 +49,11 @@
 				"seat": "winterfell",
 				"words": "Winner is coming"
 			},
-			"location": "winterfell"
+			"location": "winterfell",
+			"bio" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit corporis ratione eveniet cupiditate. Quibusdam non, mollitia itaque sunt quas aspernatur id iure, qui repudiandae similique? Soluta quidem voluptates delectus esse."
 		},
 		{
+			"id": 4,
 			"name": "Sandor Clegane",
 			"shortCode": "the-hound",
 			"actor": "Rory McCann",
@@ -53,7 +62,8 @@
 				"seat": "winterfell",
 				"words": "Winner is coming"
 			},
-			"location": "unknown"
+			"location": "unknown",
+			"bio" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit corporis ratione eveniet cupiditate. Quibusdam non, mollitia itaque sunt quas aspernatur id iure, qui repudiandae similique? Soluta quidem voluptates delectus esse."
 		}
 	]
 }

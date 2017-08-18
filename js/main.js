@@ -25,5 +25,10 @@ var compiledCharactor = Handlebars.compile(charactorTemplate);
 	$.ajax("./data/cast.json").done(function(cast) {
 		$('.characters-container').html(compiledCharactor(cast))
 
+	});
+
+	$(".characters-container").on('click', ".view-details", function(e) {
+		e.preventDefault();
+		console.log("has been clicked")
 	})
 })
