@@ -13,12 +13,10 @@
 		<!-- Custom Style Sheet -->
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
-	<body>
+	<body class="page-cast-details">
 		<div class="container">
-			<h1>Game of Thrones</h1>
-			<ul class="characters-container"></ul>
-				
-			
+			<h1>Game of Thrones | Cast Details</h1>
+			<section class="characters-container"></section>
 		</div>
 		
 
@@ -26,20 +24,24 @@
 
 		<script id="characterTemplate" type="text/x-handlebars-template">
 			
-			{{#each characters}}
 
-				<li class="character">
+				<div class="character">
 
 					<img src="img/{{shortCode}}.jpg">
-					
 					{{> charactersDetailsPartial}}
 					
-					<a href="cast-details.html?id={{@index}}" class="button view-details">View details &#8674;</a>
-				</li>
-			{{/each}}
+					
+					<a href="index.html" class="button view-details">Back</a>
+				</div>
+
+				<div class="character-bio-container">
+						<p><strong>Bio: </strong>{{bio}}</p>
+					</div>
+
 			
 		</script>
-		
+
+
 	
 		<!-- ******Jquery GOOGLE CDN***** -->
 		<script src="js/jquery-3.1.1.min.js"></script>
@@ -47,8 +49,5 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 		<script src="js/main.js"></script>
-
-		
-		
 	</body>
 </html>
